@@ -1,0 +1,147 @@
+{
+  "categorias": [
+    {
+      "titulo": "Músicas para Tirar",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "Dois Corações e Uma História - Zezé Di Camargo e Luciano (aula de violão completa)",
+          "url": "https://www.youtube.com/watch?v=H0kv9ZgyUA4"
+        },
+        {
+          "titulo": "SANTI-AMOR (part. Jorge e Mateus) - Gustavo Mioto (aula de violão completa)",
+          "url": "https://www.youtube.com/watch?v=eRcunX9iqGY&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=29"
+        },
+        {
+          "titulo": "TÔ COM MORAL NO CÉU! - Matheus & Kauan (aula de violão completa)",
+          "url": "https://www.youtube.com/watch?v=TRTPlwbw2eE&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=34"
+        },
+        {
+          "titulo": "BOATE AZUL - Bruno e Marrone (aula de violão)",
+          "url": "https://www.youtube.com/watch?v=60Ub0DvwArk&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=50"
+        },
+        {
+          "titulo": "A Majestade O Sabiá - Jair Rodrigues (aula de violão completa)",
+          "url": "https://www.youtube.com/watch?v=dMkLqY6aJO8&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=128"
+        },
+        {
+          "titulo": "Seu Polícia - Zé Neto e Cristiano (aula de violão completa)",
+          "url": "https://www.youtube.com/watch?v=JXOvAfOCwug&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=151"
+        }     
+      ]
+    },
+    {
+      "titulo": "Estudos para Violão",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Cursos de Back End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "COMO TOCAR MÚSICAS SERTANEJAS NO VIOLÃO COM 4 RITMOS",
+          "url": "https://www.youtube.com/watch?v=zjCNEsDlrhM"
+        },
+        {
+          "titulo": "Como Melhorar Sua Levada No Violão | JP Oliveira",
+          "url": "https://www.youtube.com/watch?v=DoTIBfJsUNs"
+        },
+        {
+          "titulo": "Como Tocar Vanera com Palheta - JP Oliveira",
+          "url": "https://www.youtube.com/watch?v=ErLjWs9pkFo"
+        },
+        {
+          "titulo": "COMO TOCAR BACHATA NO VIOLÃO - Marcos Borges",
+          "url": "https://www.youtube.com/watch?v=u7VoKXpFZS8"
+        }, 
+        {
+          "titulo": "ARROCHA NO VIOLÃO - Marcos Borges",
+          "url": "https://www.youtube.com/watch?v=WMjA_EFwlbQ"
+        },
+        {
+          "titulo": "Aula de violão - Volta por baixo - Henrique e Juliano - Henrique Garcia",
+          "url": "https://www.youtube.com/watch?v=93Jybm-afiU"
+        },
+        {
+          "titulo": "Henrique Garcia e Convidados - Batidas de Vanera",
+          "url": "https://www.youtube.com/watch?v=sEEu1OffknI"
+        }
+      ]
+    },
+    {
+      "titulo": "Curso de Viola do CifraClub",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "A viola | COMO TOCAR VIOLA (aula 1)",
+          "url": "https://www.youtube.com/watch?v=XxdgHLxNVzQ&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu"
+        },
+        {
+          "titulo": "Qual viola comprar | COMO TOCAR VIOLA (aula 2)",
+          "url": "https://www.youtube.com/watch?v=KsfxfrzypDc&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=2"
+        },
+        {
+          "titulo": "Como afinar sua viola | COMO TOCAR VIOLA (aula 3)",
+          "url": "https://www.youtube.com/watch?v=hIjzAP-8RMM&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=3"
+        },
+        {
+          "titulo": "Como tocar sua primeira música | COMO TOCAR VIOLA (aula 4)",
+          "url": "https://www.youtube.com/watch?v=ktoyS90weC4&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=4"
+        }
+      ]
+    },
+    {
+      "titulo": "Teclado e Piano",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "1/120 - INDEPENDÊNCIA TOTAL dos dedos em 120 ESTUDOS | Piano e Teclado |",
+          "url": "https://www.youtube.com/watch?v=bSr-50DDnww&list=PLb4uSJGRKwIBCazq004TPdGl1iwBYAcPz"
+        },
+        {
+          "titulo": "1/40 exercícios de TÉCNICA DIÁRIA do PIANISTA e TECLADISTA | PARALELA e ESPELHADA",
+          "url": "https://www.youtube.com/watch?v=M2nvU7dzoso&list=PLb4uSJGRKwIDDZ8BFfNdWjNy5QNxs8O3T"
+        },
+        {
+          "titulo": "Os TOP 5 exercícios de piano para iniciantes",
+          "url": "https://www.youtube.com/watch?v=b_kXQaOzFaU"
+        },
+        {
+          "titulo": "Faça isso todos os dias e veja como vai tocar melhor teclado",
+          "url": "https://www.youtube.com/watch?v=lNPuvMLedTw"
+        }
+      ]
+    },
+    {
+      "titulo": "Cavaquinho",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Batidas de Cavaquinho - Unindo as Batidas (aula de cavaquinho)",
+          "url": "https://www.youtube.com/watch?v=oNdfF8DNLDI"
+        },
+        {
+          "titulo": "Batida de Samba e Pagode para INICIANTE!!! Como tocar Cavaquinho",
+          "url": "https://www.youtube.com/watch?v=N1nB4306W9g"
+        },
+        {
+          "titulo": "Batida de Samba e Pagode no Cavaquinho com Abafamento - Professor Damiro",
+          "url": "https://www.youtube.com/watch?v=Pfe16m8-WHY"
+        }
+      ]
+    }
+  ]
+}
