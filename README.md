@@ -1,8 +1,3 @@
-Este é o projeto que estou desenvolvendo na imersão React da Alura, início em 27-07-2020.
-
-O projeto consiste em criar uma interface que lembra muito a do Netflix, porém o projeto original é focado em trazer vídeos de desenvolvimento, aqui porém estou utilizando para trazer vídeos referentes ao aprendizado de música (daí o nome MusikFlix)!
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
