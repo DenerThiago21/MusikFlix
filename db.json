@@ -1,34 +1,186 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Músicas para Tirar",
-            "descricao": "Músicas que pretendo tirar e tocar",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Estudos para Violão",
-            "descricao": "Aprendendo com os mestres do violão",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 3,
-            "nome": "Curso de Viola Caipira",
-            "descricao": "Curso de viola caipira do CifraClub",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 4,
-            "nome": "Teclado e Piano",
-            "descricao": "Dicas, macetes e aulas para teclado e piano",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 5,
-            "nome": "Vai no cavaco",
-            "descricao": "Vídeo Aulas de cavaquinho",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Músicas para Tirar",
+      "descricao": "Músicas que pretendo tirar e tocar",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "titulo": "Estudos para Violão",
+      "descricao": "Aprendendo com os mestres do violão",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 3,
+      "titulo": "Curso de Viola Caipira",
+      "descricao": "Curso de viola caipira do CifraClub",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 4,
+      "titulo": "Teclado e Piano",
+      "descricao": "Dicas, macetes e aulas para teclado e piano",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Vai no cavaco",
+      "descricao": "Vídeo Aulas de cavaquinho",
+      "cor": "red"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Dois Corações e Uma História - Zezé Di Camargo e Luciano (aula de violão completa)",
+      "url": "https://www.youtube.com/watch?v=H0kv9ZgyUA4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "SANTI-AMOR (part. Jorge e Mateus) - Gustavo Mioto (aula de violão completa)",
+      "url": "https://www.youtube.com/watch?v=eRcunX9iqGY&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=29"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "TÔ COM MORAL NO CÉU! - Matheus & Kauan (aula de violão completa)",
+      "url": "https://www.youtube.com/watch?v=TRTPlwbw2eE&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=34"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "BOATE AZUL - Bruno e Marrone (aula de violão)",
+      "url": "https://www.youtube.com/watch?v=60Ub0DvwArk&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=50"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "A Majestade O Sabiá - Jair Rodrigues (aula de violão completa)",
+      "url": "https://www.youtube.com/watch?v=dMkLqY6aJO8&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=128"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Seu Polícia - Zé Neto e Cristiano (aula de violão completa)",
+      "url": "https://www.youtube.com/watch?v=JXOvAfOCwug&list=PL_TqAU4yPHO75mM9c9Utp4j0SNyExGNe5&index=151"
+    },
+    {
+      "id": 1,
+      "categoriaId": 2,
+      "titulo": "COMO TOCAR MÚSICAS SERTANEJAS NO VIOLÃO COM 4 RITMOS",
+      "url": "https://www.youtube.com/watch?v=zjCNEsDlrhM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Como Melhorar Sua Levada No Violão | JP Oliveira",
+      "url": "https://www.youtube.com/watch?v=DoTIBfJsUNs"
+    },
+    {
+      "id": 3,
+      "categoriaId": 2,
+      "titulo": "Como Tocar Vanera com Palheta - JP Oliveira",
+      "url": "https://www.youtube.com/watch?v=ErLjWs9pkFo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 2,
+      "titulo": "COMO TOCAR BACHATA NO VIOLÃO - Marcos Borges",
+      "url": "https://www.youtube.com/watch?v=u7VoKXpFZS8"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "ARROCHA NO VIOLÃO - Marcos Borges",
+      "url": "https://www.youtube.com/watch?v=WMjA_EFwlbQ"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Aula de violão - Volta por baixo - Henrique e Juliano - Henrique Garcia",
+      "url": "https://www.youtube.com/watch?v=93Jybm-afiU"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Henrique Garcia e Convidados - Batidas de Vanera",
+      "url": "https://www.youtube.com/watch?v=sEEu1OffknI"
+    },
+    {
+      "id": 1,
+      "categoriaId": 3,
+      "titulo": "A viola | COMO TOCAR VIOLA (aula 1)",
+      "url": "https://www.youtube.com/watch?v=XxdgHLxNVzQ&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu"
+    },
+    {
+      "id": 2,
+      "categoriaId": 3,
+      "titulo": "Qual viola comprar | COMO TOCAR VIOLA (aula 2)",
+      "url": "https://www.youtube.com/watch?v=KsfxfrzypDc&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=2"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "Como afinar sua viola | COMO TOCAR VIOLA (aula 3)",
+      "url": "https://www.youtube.com/watch?v=hIjzAP-8RMM&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=3"
+    },
+    {
+      "id": 4,
+      "categoriaId": 3,
+      "titulo": "Como tocar sua primeira música | COMO TOCAR VIOLA (aula 4)",
+      "url": "https://www.youtube.com/watch?v=ktoyS90weC4&list=PL_TqAU4yPHO5ogLOsRdJFVDTo_qgFPPNu&index=4"
+    },
+    {
+      "id": 1,
+      "categoriaId": 4,
+      "titulo": "1/120 - INDEPENDÊNCIA TOTAL dos dedos em 120 ESTUDOS | Piano e Teclado |",
+      "url": "https://www.youtube.com/watch?v=bSr-50DDnww&list=PLb4uSJGRKwIBCazq004TPdGl1iwBYAcPz"
+    },
+    {
+      "id": 2,
+      "categoriaId": 4,
+      "titulo": "1/40 exercícios de TÉCNICA DIÁRIA do PIANISTA e TECLADISTA | PARALELA e ESPELHADA",
+      "url": "https://www.youtube.com/watch?v=M2nvU7dzoso&list=PLb4uSJGRKwIDDZ8BFfNdWjNy5QNxs8O3T"
+    },
+    {
+      "id": 3,
+      "categoriaId": 4,
+      "titulo": "Os TOP 5 exercícios de piano para iniciantes",
+      "url": "https://www.youtube.com/watch?v=b_kXQaOzFaU"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Faça isso todos os dias e veja como vai tocar melhor teclado",
+      "url": "https://www.youtube.com/watch?v=lNPuvMLedTw"
+    },
+    {
+      "id": 1,
+      "categoriaId": 5,
+      "titulo": "Batidas de Cavaquinho - Unindo as Batidas (aula de cavaquinho)",
+      "url": "https://www.youtube.com/watch?v=oNdfF8DNLDI"
+    },
+    {
+      "id": 2,
+      "categoriaId": 5,
+      "titulo": "Batida de Samba e Pagode para INICIANTE!!! Como tocar Cavaquinho",
+      "url": "https://www.youtube.com/watch?v=N1nB4306W9g"
+    },
+    {
+      "id": 3,
+      "categoriaId": 5,
+      "titulo": "Batida de Samba e Pagode no Cavaquinho com Abafamento - Professor Damiro",
+      "url": "https://www.youtube.com/watch?v=Pfe16m8-WHY"
+    },
+    {
+      "titulo": "VANEIRA / BATIDÃO no violão + DICA DE GRAVAÇÃO - Marcos Borges",
+      "url": "https://www.youtube.com/watch?v=aiAxNb30ASo",
+      "categoriaId": 2,
+      "id": 8
+    }
+  ]
 }

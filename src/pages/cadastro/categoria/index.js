@@ -1,38 +1,20 @@
+/* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import TemplateBase from '../../../components/TempateBase';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/UseForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(key, val) {
-    setValues({
-      ...values,
-      [key]: val,
-    });
-  }
-
-  // função que pega o atributo name de cada campo e o valor também de forma genérica
-  function handleChange(evento) {
-    /* const {getAttribute, value} = evento.target;
-    setValue(
-      getAttribute('name'),
-      value
-    ) */
-    setValue(
-      evento.target.getAttribute('name'),
-      evento.target.value,
-    );
-  }
 
   useEffect(() => {
     console.log('opa');
@@ -54,7 +36,7 @@ function CadastroCategoria() {
     <TemplateBase>
       <h1>
         Cadastro de Categoria:
-        { values.nome }
+        { values.titulo }
       </h1>
 
       <form onSubmit={function handleSubmit(infoEvento) {
@@ -65,15 +47,15 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
         <FormField
           label="nome da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -106,8 +88,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categorias) => (
-          <li key={`${categorias.nome}`}>
-            {categorias.nome}
+          <li key={`${categorias.titulo}`}>
+            {categorias.titulo}
           </li>
         ))}
       </ul>
